@@ -1,1 +1,8 @@
-<figure><embed src="https://wakatime.com/share/@SecurityR4t/9027da6c-3cc5-4785-afd6-951c0a5287be.svg"></embed></figure>
+$.ajax({
+  type: 'GET',
+  url: 'https://wakatime.com/share/@SecurityR4t/9fcf9eb9-ac15-40e4-aacb-1a52d38bbd1b.json',
+  dataType: 'jsonp',
+  success: function(response) {
+    console.log(response.data);
+  },
+});
